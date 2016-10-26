@@ -9,7 +9,9 @@
         }
     ],
     "autoload": {
-        "psr-4": { "holystix\\Odnoklassniki\\": "src/" }
+        "psr-4": {
+            "Holystix\\Odnoklassniki\\": "src"
+        }
     },
     "require": {
         "php": ">=5.5.0",
