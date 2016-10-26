@@ -1,0 +1,19 @@
+{
+    "name": "holystix/odnoklassniki-php-sdk",
+    "description": "odnoklassniki.ru php sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Janis Osenieks",
+            "email": "janisosh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "holystix\\Odnoklassniki\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "minimum-stability": "dev"
+}
